@@ -14,6 +14,8 @@ root.title('Clock')
 # This function is used to
 # display time on the label
 
+#
+
 def time():
 	string = strftime('%H:%M:%S %p')
 	lbl.config(text=string)
